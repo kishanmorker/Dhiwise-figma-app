@@ -14,10 +14,12 @@
     <string name="use_default">Set Defaults</string>
 
     <string name="default_figma_link"><![CDATA[https://www.figma.com/design/yFlCzft7wpwgWpdAaJl4HH/Helthio---Medical-App?node-id=1409-62&t=3MEHZfSefpsuMVlg-0]]></string>
-    <string name="default_token1">ZmlnZF8wQ2tDX3hOWHV2TWJG</string>
-    <string name="default_token2">Smw0T2ZhMHdCemxlY3Y5RGNNSDR6RlhXLVhw</string>
+
+
+    <string name="default_token1">ZmlnZF9NMXlqNThtQmp6Sk42T1l6Sj</string>
+    <string name="default_token2">Z6SGMwX0UtMWNYcEtjdXA2cnp0a0RG</string>
     <string name="process_success">Login and SignUp screen data successfully stored at Documents/dhiwise folder</string>
-    <string name="something_went_wrong">Oops, Something went wrong...</string>
+    <string name="something_went_wrong">Oops, Something went wrong…</string>
     <string name="screen_data_not_found">SinUp and Login screen data not found.</string>
     <string name="failed_to_read_file_content">Failed to read file content</string>
     <string name="app_folder_name">dhiwise_figma_data</string>
