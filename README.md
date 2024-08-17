@@ -22,7 +22,9 @@ hardcoded Node IDs.
 Login screen’s node ID: 1409:1516
 SignUp screen’s node ID: 1409:1535
 
-* Output json Hierarchy for screens will be as list of below given custom object:
+Output json Hierarchy for screens will be as list of below given custom object:
+
+
   {
   "type": "",
   "id": "",
