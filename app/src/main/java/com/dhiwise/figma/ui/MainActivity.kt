@@ -6,6 +6,7 @@ import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.util.Base64
 import android.util.Log
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
@@ -80,7 +81,11 @@ class MainActivity : AppCompatActivity() {
 
             tvUseDefaults.setOnClickListener {
                 edtFigmaLink.setText(getString(R.string.default_figma_link))
-                edtFigmaToken.setText(getString(R.string.default_figma_token))
+
+                val token = getString(R.string.default_figma_token)
+                val decodedData = Base64.decode(token, Base64.DEFAULT)
+                val originalString = String(decodedData)
+                edtFigmaToken.setText(originalString)
             }
 
             tvRenderLoginScreen.setOnClickListener {
