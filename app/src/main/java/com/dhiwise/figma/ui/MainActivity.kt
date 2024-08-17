@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
             tvUseDefaults.setOnClickListener {
                 edtFigmaLink.setText(getString(R.string.default_figma_link))
 
-                val token = getString(R.string.default_figma_token)
+                val token = getString(R.string.default_token1) + getString(R.string.default_token2)
                 val decodedData = Base64.decode(token, Base64.DEFAULT)
                 val originalString = String(decodedData)
                 edtFigmaToken.setText(originalString)

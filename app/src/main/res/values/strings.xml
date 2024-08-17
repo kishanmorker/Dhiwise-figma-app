@@ -14,8 +14,8 @@
     <string name="use_default">Set Defaults</string>
 
     <string name="default_figma_link"><![CDATA[https://www.figma.com/design/yFlCzft7wpwgWpdAaJl4HH/Helthio---Medical-App?node-id=1409-62&t=3MEHZfSefpsuMVlg-0]]></string>
-<!--    <string name="default_figma_token">figd_0CkC_xNXuvMbFJl4Ofa0wBzlecv9DcMH4zFXW-Xp</string>-->
-    <string name="default_figma_token">ZmlnZF8wQ2tDX3hOWHV2TWJGSmw0T2ZhMHdCemxlY3Y5RGNNSDR6RlhXLVhw</string>
+    <string name="default_token1">ZmlnZF8wQ2tDX3hOWHV2TWJG</string>
+    <string name="default_token2">Smw0T2ZhMHdCemxlY3Y5RGNNSDR6RlhXLVhw</string>
     <string name="process_success">Login and SignUp screen data successfully stored at Documents/dhiwise folder</string>
     <string name="something_went_wrong">Oops, Something went wrong...</string>
     <string name="screen_data_not_found">SinUp and Login screen data not found.</string>
