@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
                             )
                         })
                     } else {
-                        //ssssfetch figma file data
+                        //fetch figma file data
                         fetchFigmaFileData(
                             edtFigmaLink.text.toString(), edtFigmaToken.text.toString()
                         )
@@ -82,6 +82,7 @@ class MainActivity : AppCompatActivity() {
             tvUseDefaults.setOnClickListener {
                 edtFigmaLink.setText(getString(R.string.default_figma_link))
 
+                //decode and set default figma token
                 val token = getString(R.string.default_token1) + getString(R.string.default_token2)
                 val decodedData = Base64.decode(token, Base64.DEFAULT)
                 val originalString = String(decodedData)
